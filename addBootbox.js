@@ -35,7 +35,7 @@ function sleep(milliseconds) {
  //  Setting Up MSG
 
 console.clear()
-sleep(0.5)
+sleep(1)
 
 
  //  Import Header MSG
