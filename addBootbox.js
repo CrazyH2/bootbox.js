@@ -31,7 +31,7 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 console.clear()
-sleep(2000)
+sleep(1)
 var msg = `%c
 ██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
 ██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
@@ -40,7 +40,7 @@ var msg = `%c
 ██████   ██████   ██████     ██    ██████   ██████  ██   ██      █████  ███████ 
                                                                                 
                                                                                 
-LOADED ALL IMPORTS AND FILES FROM BOOTBOXJS ...
+LOADING ALL IMPORTS AND FILES FROM BOOTBOXJS ...
 `
 console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 function include(file) {
