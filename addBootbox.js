@@ -23,7 +23,6 @@
 
  //  Setting Up Sleep Function
 
-console.info("Setting Up Sleep Function ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -35,7 +34,6 @@ function sleep(milliseconds) {
 
  //  Setting Up MSG
 
-console.info("Setting Up MSG ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 console.clear()
 sleep(0.001)
 
