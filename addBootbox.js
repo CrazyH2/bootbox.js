@@ -23,8 +23,6 @@
 
  //  Importing Bootbox.js Files
 
-console.clear()
-sleep(2000)
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -32,6 +30,8 @@ function sleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
+console.clear()
+sleep(2000)
 function include(file) {
   
   var script  = document.createElement('script');
