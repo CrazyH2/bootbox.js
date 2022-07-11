@@ -31,7 +31,7 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 }
 console.clear()
-sleep(1)
+sleep(0001)
 var msg = `%c
 ██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
 ██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
