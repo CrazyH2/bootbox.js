@@ -21,7 +21,7 @@
 
 
 
- //  Importing Bootbox.js Files
+ //  Setting Up Sleep Function
 
 function sleep(milliseconds) {
   const date = Date.now();
@@ -30,8 +30,14 @@ function sleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 }
+
+
+ //  Setting Up MSG
 console.clear()
 sleep(0.001)
+
+
+ //  Import Header MSG
 var msg = `%c
 ██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
 ██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
@@ -43,6 +49,10 @@ var msg = `%c
 LOADING ALL IMPORTS AND FILES FROM BOOTBOXJS ...
 `
 console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+
+
+ //  Setting Up File Appender
+
 function include(file) {
   
   var script  = document.createElement('script');
@@ -53,6 +63,9 @@ function include(file) {
   document.getElementsByTagName('head').item(0).appendChild(script);
   
 }
+
+
+ //  Importing Bootbox.js Files
 
  //  BOOTSTRAP.MIN.CSS
 include('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css');
