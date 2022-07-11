@@ -32,6 +32,17 @@ function sleep(milliseconds) {
 }
 console.clear()
 sleep(2000)
+var msg = `%c
+██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
+██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
+██████  ██    ██ ██    ██    ██    ██████  ██    ██   ███            ██ ███████ 
+██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██      ██   ██      ██ 
+██████   ██████   ██████     ██    ██████   ██████  ██   ██      █████  ███████ 
+                                                                                
+                                                                                
+LOADED ALL IMPORTS AND FILES FROM BOOTBOXJS ...
+`
+console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 function include(file) {
   
   var script  = document.createElement('script');
@@ -53,18 +64,7 @@ include('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstr
 include('https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js');
 
 
- //  Importing Bootbox.js Files
-var msg = `%c
-██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
-██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
-██████  ██    ██ ██    ██    ██    ██████  ██    ██   ███            ██ ███████ 
-██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██      ██   ██      ██ 
-██████   ██████   ██████     ██    ██████   ██████  ██   ██      █████  ███████ 
-                                                                                
-                                                                                
-LOADED ALL IMPORTS AND FILES FROM BOOTBOXJS ...
-`
-console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+ //  Import Footer MSG
 var msg = `%c
  /////////////////////////////////////////////////
  //                                             //
