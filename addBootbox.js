@@ -24,7 +24,7 @@
  //  Importing Bootbox.js Files
 
 console.clear()
-
+wait 5
 function include(file) {
   
   var script  = document.createElement('script');
