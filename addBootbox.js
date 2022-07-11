@@ -24,14 +24,25 @@
  //  Importing Bootbox.js Files
 
 console.clear()
+function include(file) {
+  
+  var script  = document.createElement('script');
+  script.src  = file;
+  script.type = 'text/javascript';
+  script.defer = true;
+  
+  document.getElementsByTagName('head').item(0).appendChild(script);
+  
+}
+
  //  BOOTSTRAP.MIN.CSS
-import 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css';
+include('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css');
  //  JQUERY.MIN.JS
-import 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js';
+include('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js');
  //  BOOTSTRAP.MIN.JS
-import 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js';
+include('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/js/bootstrap.min.js');
  //  BOOTBOX.MIN.JS
-import 'https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js';
+include('https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js');
 
 
  //  Importing Bootbox.js Files
