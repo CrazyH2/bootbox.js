@@ -40,7 +40,7 @@ sleep(0.001)
 
  //  Import Header MSG
 
-console.info("Importing Header MSG ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+console.info("%cImporting Header MSG ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 var msg = `%c
 ██████   ██████   ██████  ████████ ██████   ██████  ██   ██          ██ ███████ 
 ██   ██ ██    ██ ██    ██    ██    ██   ██ ██    ██  ██ ██           ██ ██      
@@ -56,7 +56,7 @@ console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; te
 
  //  Setting Up File Appender
 
-console.info("Setting Up File Appender ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+console.info("%cSetting Up File Appender ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 function include(file) {
   
   var script  = document.createElement('script');
@@ -71,7 +71,7 @@ function include(file) {
 
  //  Importing Bootbox.js Files
 
-console.info("Importing Bootbox.js Files ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+console.info("%cImporting Bootbox.js Files ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
  //  BOOTSTRAP.MIN.CSS
 include('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0-beta1/css/bootstrap.min.css');
  //  JQUERY.MIN.JS
@@ -84,7 +84,7 @@ include('https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.3/bootbox.min.js'
 
  //  Import Footer MSG
 
-console.info("Importing Footer MSG ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+console.info("%cImporting Footer MSG ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
 var msg = `%c
  /////////////////////////////////////////////////
  //                                             //
@@ -97,4 +97,4 @@ var msg = `%c
 
 `
 console.info(msg, 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
-console.info("Complete Setting Up BootboxJS ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
+console.info("%cComplete Setting Up BootboxJS ...", 'color: #D81A6D; font-weight: bold; font-family: monospace; text-align: center;');
